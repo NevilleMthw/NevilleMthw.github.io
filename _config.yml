@@ -1,0 +1,18 @@
+# Site settings
+title: Neville's blog
+email: nevillemathew.contact@gmail.com
+description: "Musings of a Computer Scientist."
+baseurl: ""
+url: "http://NevilleMthw.github.io"
+twitter_username: nevillemthw
+github_username:  NevilleMthw
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
