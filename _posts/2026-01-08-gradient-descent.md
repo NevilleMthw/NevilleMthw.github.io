@@ -1,12 +1,21 @@
+---
+layout: post
+title: "Gradient Descent"
+date: 2026-01-08
+comments: true
+mathjax: true
+excerpt: "An explanation of gradient descent and its role in minimizing error in neural networks and AI models."
+---
+
 # Gradient Descent
 
 The purpose of the gradient descent is to minimize the function. The more mathematical term is called the method of least squares.
 
 $$y = x^2$$
 
-![gradient-descent](assets/gradient_descent.jpg)
+![gradient-descent](/assets/gradient_descent.jpg)
 
-Why is the gradient descent specifically $y = x^2$ because the original formula for a line is $y = mx + b$ but that does not have a bottom since a line is continuous and infinite, meaning there is no end. Whereas, the parabola is u-shaped which means there is a true bottom and that is the idea of what neural networks are based on, to **minimize the error.**
+Why is the gradient descent specifically $y = x^2$ because the original formula for a line is $y = mx + b$ but that does not have a bottom since a line is continuous and infinite, meaning there is no end. Whereas, the parabola is U-shaped which means there is a true bottom and that is the idea of what neural networks are based on, to **minimize the error.**
 
 Gradient descent has few key components:
 
@@ -16,7 +25,7 @@ Gradient descent has few key components:
 
 3. The current guess
 
-With the help of coding, we can introduce this in a more simpler fashion without doing any crazy calculus work.
+With the help of coding, we can introduce this in a simpler fashion without doing any crazy calculus work.
 
 ```python
 for x in range(tries):
@@ -56,5 +65,5 @@ Now, when I mention error, it is different from the current or new position. Typ
 
 A higher LR tends to lead to larger steps on the descent, however, there is a higher risk of overshooting the minimum. A lower LR will lead to more conservative steps but can take a longer time for the model to converge, therefore, more expensive training process.
 
-So from my understanding, typically model training is done using PyTorch so optimizers and learning rates come into effect for the gradient descent part internally. The optimizer is telling the model which best direction to move to go towards the bottom, it is usually used to optimize the cost function parameters which are weights and biases and the learning rate is set to analyze how large or small the step is towards the minimum. Highly fundamental concept in machine learning which I always keep in mind while training neural networks.
+So from my understanding, typically model training is done using PyTorch so optimizers and learning rates come into effect for the gradient descent part internally. The optimizer is telling the model which the best direction to move to go towards the bottom, it is usually used to optimize the cost function parameters which are weights and biases and the learning rate is set to analyze how large or small the step is towards the minimum. Highly fundamental concept in machine learning which I always keep in mind while training neural networks.
 
