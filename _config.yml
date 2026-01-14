@@ -1,9 +1,9 @@
 # Site settings
 title: Neville's blog
 email: nevillemathew.contact@gmail.com
-description: "Musings of a Computer Scientist."
+description: "Experiences of my learning journey in AI"
 baseurl: ""
-url: "http://NevilleMthw.github.io"
+url: "https://NevilleMthw.github.io"
 twitter_username: nevillemthw
 github_username:  NevilleMthw
 
