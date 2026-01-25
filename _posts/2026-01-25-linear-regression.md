@@ -11,7 +11,7 @@ excerpt: "An explanation of linear regression in simple terms."
 
 Linear regression is a fundamental concept in machine learning. It is heavily used in all sorts of deep learning architectures such as neural networks as an example. As a matter of fact, even ChatGPT uses linear regression to an extent.
 
-![linear_regression.png](/assets/linear_regression.png)
+![linear_regression](/assets/linear_regression.png)
 
 So why is linear regression called linear regression? The term regression basically means we have a line and we can an n number of predictions/outputs/probabilities as opposed to a classification which follows a set number of inputs and provides a set number of predictions. A classification example could be to identify which animal is in the image, a dog or a cat. A regression example could be prediction of an individual's body temperature.
 
