@@ -15,11 +15,11 @@ $$y = x^2$$
 
 ![gradient-descent](/assets/gradient_descent.jpg)
 
-Why is the gradient descent specifically $y = x^2$ because the original formula for a line is $y = mx + b$ but that does not have a bottom since a line is continuous and infinite, meaning there is no end. Whereas, the parabola is U-shaped which means there is a true bottom and that is the idea of what neural networks are based on, to **minimize the error.**
+Why is the gradient descent specifically $$y = x^2$$ because the original formula for a line is $$y = mx + b$$ but that does not have a bottom since a line is continuous and infinite, meaning there is no end. Whereas, the parabola is U-shaped which means there is a true bottom and that is the idea of what neural networks are based on, to **minimize the error.**
 
 Gradient descent has few key components:
 
-1. Derivative, since $y = x^2$ then the derivative is $2x$
+1. Derivative, since $$y = x^2$$ then the derivative is $$2x$$
 
 2. Learning rate (alpha)
 
