@@ -19,7 +19,7 @@ We can take the example of someone's body temperature. Regression will provide a
 
 The easy mathematical way would show as is:
 
-$N(X, Y) = W1*X + W1*Y + B$
+$$N(X, Y) = W1*X + W1*Y + B$$
 
 This is a super simple an intuitive way of explaining linear regression. Another part is B (bias), this is a sort of base factor or value that the model usually comes up by the model itself and becomes a better value over the course of training.
 
@@ -29,7 +29,7 @@ Over a period of iterations, we get an error value, that error value typically g
 
 The formula for MSE would be:
 
-$\sum_{i=1}^{n}(Prediction_i - Truevalue_i)/N$
+$$\sum_{i=1}^{n}(Prediction_i - Truevalue_i)/N$$
 
 So we take the sum of some number of total samples, iterate and get the difference i.e. prediction and ground truth value divided by the total number of samples. Now, the question asked is, why do we square them? We square the value to avoid the negative and only get the average.
 
